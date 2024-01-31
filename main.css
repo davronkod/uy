@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: Inter;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 1000px;
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.container .menu {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+}
+.container .menu .title p {
+  display: inline;
+  margin-left: 190px;
+}
+.container .menu .p1 {
+  margin-left: 2px;
+  margin-top: 5px;
+}
+.container .menu .p2 {
+  margin-left: 308px;
+  margin-top: -16px;
+}
+.container .menu .p3 {
+  margin-left: 900px;
+  margin-top: -40px;
+}
+.container .menu1 {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 77px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.container .menu1 .logo {
+  margin-top: 30px;
+  margin-left: 164px;
+  cursor: pointer;
+}
+.container .menu1 .inline p {
+  display: inline;
+  margin-left: 46px;
+}
+.container .menu1 .inline p:hover {
+  color: rgb(98, 98, 98);
+}
+.container .menu1 .inline {
+  margin-left: 500px;
+  margin-top: -20px;
+}
+.container .menu1 .btn {
+  margin-left: 1096px;
+  margin-top: -30px;
+}
+.container .menu1 .btn button {
+  border-radius: 5px;
+  background-color: #4762FF;
+  width: 179px;
+  height: 40px;
+  color: #FFF;
+  font-family: Inter;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: solid #4762FF;
+}
+.container .menu1 .btn button:hover {
+  background-color: black;
+  border: solid black;
+  transition: 0.5s;
+}
+.container .urta {
+  width: 1440px;
+  height: 540px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.container .urta .katta {
+  margin-left: 165px;
+  margin-top: 77px;
+}
+.container .urta .katta h1 {
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+  /* 126.667% */
+}
+.container .urta .btn1 button {
+  border-radius: 5px;
+  background-color: #4762FF;
+  width: 196px;
+  height: 52px;
+  color: #FFF;
+  font-family: Inter;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: solid #4762FF;
+}
+.container .urta .btn1 button:hover {
+  background-color: black;
+  border: solid black;
+  transition: 0.5s;
+}
+.container .urta .img1 {
+  margin-left: 518px;
+  margin-top: -400px;
+}
+.container .box h2 {
+  color: #333;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .box p {
+  color: rgba(51, 51, 51, 0.8);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .ota {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 36px;
+  margin-left: 197px;
+  margin-top: 50px;
+}
+.container .ota .child {
+  width: 505px;
+  height: 287px;
+  border-radius: 9px;
+  background-color: #F4F6FA;
+}
+.container .ota .child h2 {
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .ota .child p {
+  color: rgba(51, 51, 51, 0.8);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .ota .child img {
+  margin-left: 281px;
+  margin-top: -160px;
+}
+.container .ota .child .qiy {
+  margin-left: 145px;
+}
+.container .ota .child .bass {
+  margin-left: 195px;
+  margin-top: -130px;
+}
+.container .background {
+  width: 1440px;
+  height: 554px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 70px;
+}
+.container .background .title4 {
+  margin-left: 165px;
+  margin-top: 157px;
+}
+.container .background .title4 h2 {
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .background .imq img {
+  margin-left: 170px;
+  margin-top: -30px;
+}
+.container .background .imq {
+  margin-left: 700px;
+  margin-top: -300px;
+}
+.container .kulrang {
+  width: 1440px;
+  height: 541px;
+  background-color: #F4F4F4;
+  margin: 0 auto;
+}
+.container .kulrang .h22 h2 {
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .kulrang .h22 p {
+  color: rgba(51, 51, 51, 0.8);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .kulrang .h22 {
+  margin-left: 125px;
+  margin-top: -9px;
+}
+.container .kulrang .ras {
+  margin-left: 720px;
+  margin-top: -385px;
+}
+.container .yozuv3 h2 {
+  color: #333;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 56px;
+}
+.container .uzi {
+  background-image: url("../img/truck-driver-opening-reservoir-tank-refuel-truck-holding-thumbs-up 1.png");
+  width: 1440px;
+  height: 678px;
+  display: flex;
+}
+.container .uz {
+  background-color: rgb(255, 255, 255);
+  width: 611px;
+  height: 548px;
+  border-radius: 15px;
+  margin-left: 670px;
+  margin-top: 70px;
+}
+.container .uz_tit {
+  margin-left: 71px;
+  margin-top: 39px;
+}
+.container .uz_tit h2 {
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .uz_tit p {
+  color: rgba(51, 51, 51, 0.8);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .uz_tit input {
+  width: 469px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: rgba(71, 98, 255, 0.08);
+  border: solid rgba(71, 98, 255, 0.08);
+  color: #979797;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .uz_tit .input input {
+  display: flex;
+  width: 469px;
+  padding: 22px 185px;
+  border-radius: 8px;
+  background-color: #4762FF;
+  align-items: flex-start;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  gap: 10px;
+}
+.container .black2 {
+  background-color: #1A1A1A;
+  width: 1440px;
+  display: flex;
+  height: 391px;
+}
+.container .black2 .logo2 {
+  margin-left: 146px;
+  margin-top: 50px;
+}
+.container .black2 .parag p {
+  gap: 15px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .black2 .parag {
+  margin-left: 76px;
+  margin-top: 40px;
+}
+.container .black2 .tele p {
+  gap: 15px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .black2 .tele {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.container .black2 .tele i {
+  color: white;
+}
+.container .black2 .ijt h3 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .black2 .ijt i {
+  color: rgb(255, 255, 255);
+  width: 34px;
+  font-size: 35px;
+  margin-top: 5px;
+}
+.container .black2 .ijt p {
+  gap: 15px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .black2 .ijt {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.container hr {
+  width: 1110px;
+  height: 1px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
